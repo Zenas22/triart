@@ -24,7 +24,7 @@ tri.push(parseInt(document.getElementById('l1').value));
         }
         else if ( tri[0] === tri[1] || tri[1] === tri[2] || tri[2] === tri[0] ) {
           /* alert("Isosceles triangle confirmed"); */
-          document.getElementById('niambie').innerHTML = "<h2>This is an Isosceles triangle</h2> <p>This triangle has two sides with the same values for length but one side witha different length</p>";
+          document.getElementById('niambie').innerHTML = "<h2>This is an Isosceles triangle</h2> <p>This triangle has two sides with the same values for length but one side with a different length</p>";
         }
         else if ( (tri[0]+tri[1]) >= tri[2] || (tri[1]+tri[2]) >= tri[0] || (tri[2]+tri[0]) >= tri[1]){
           /* alert("Scalene triangle confirmed"); */
@@ -32,9 +32,13 @@ tri.push(parseInt(document.getElementById('l1').value));
         }
         else {
           /* alert("Please try again"); */
-          document.getElementById('niambie').innerHTML = "<h2>Please try again</h2>"
+          document.getElementById('niambie').innerHTML = "<h2>Please try again</h2>";
         }
         }
       }
     }
-  }
+  };
+function triagain() {
+  document.getElementById('niambie').innerHTML = "";
+  tri = [];
+};
