@@ -45,7 +45,27 @@ body{
 .navbar ul li a:hover{
   color: #8BB58F;
 }
-section {
+section#trigon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+section#tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+section#contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,4 +99,21 @@ section#contact {
   background-image: url('../images/abstract.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+#niambie {
+  border: 2px;
+  border-radius: 22px;
+  border-color:
+}
+.enter {
+  float: left;
+  margin: 12px;
+  border: 2px;
+  border-radius: 22px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+button {
+  padding: 5px;
+  margin: 2px;
 }
