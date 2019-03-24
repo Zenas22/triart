@@ -4,6 +4,8 @@
   <title>Trigon</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js" type="text/javascript">
+  </script>
 </head>
 <body>
   <div class="container">
@@ -21,11 +23,24 @@
     </section>
     <section id="tracker">
       <h1>Tracker</h1>
-      <p></p>
-   </section>
+      <p>Try your own triangle</p>
+      <form class="enter">
+        <p>l1:<input type="number" id="l1" placeholder="Enter a number"
+          value=""></p>
+        <p>l2:<input type="number" id="l2" placeholder="Enter a number"
+          value=""></p>
+        <p>l3:<input type="number" id="l3" placeholder="Enter a number"
+          value=""></p>
+        <button id="check" type="button" onclick="triart()">Try</button>
+        <button id="reset" type="reset">Clear</button>
+      </form>
+      <div>
+        <p id="niambie"></p>
+      </div>
+    </section>
     <section id="contact">
       <h1>Contact</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
