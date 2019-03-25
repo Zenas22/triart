@@ -15,7 +15,7 @@ This website serves as an application that defines and helps to identify whether
  certain values are triangles and what type of a triangle they are. This is done
  through JavaScript logic.
  
-===
+---
 
 It was created on HTML and CSS and JavaScript to
 give logic to the calculations to be done and beauty to the page itself.
