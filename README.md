@@ -20,7 +20,7 @@ It was created on HTML and CSS and JavaScript to
 give logic to the calculations to be done and beauty to the page itself.
 
 There are no known bugs. However, if you stumble upon one please send a
-description of the bug to the hosts's email zenas2294@gmail.com.
+description of the bug to the hosts' email zenas2294@gmail.com.
 ---
 
 **Contact**
