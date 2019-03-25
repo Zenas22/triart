@@ -6,7 +6,19 @@ TriangleTracker
 
 This is the website for a triangle tracker created by Zenas Muli as requested by
 Moringa School.
----
+
+| Behavior               | Input                     | Output              |
+|-----------------------:|:-------------------------:|:--------------------|
+|Two sides added         |(a+b)>c,(b+a)>c,(c+a)>b    |if true object is a  |
+|together are bigger than|                           |triangle.            |
+|the other side          |                           |                     |
+|-----------------------:|:-------------------------:|:--------------------|
+|All sides are equal     |a=b=c                      |Equilateral          |
+|-----------------------:|:-------------------------:|:--------------------|
+|Two are equal           |a=b or b=c or a=c          |Isosceles            |
+|-----------------------:|:-------------------------:|:--------------------|
+|All sides are different |a!=b b!=c a!=c             |Scalene              |
+|-----------------------:|:-------------------------:|:--------------------|
 
 By *Zenas Muli*
 ---
